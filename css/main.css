@@ -1,0 +1,70 @@
+/*** main stylesheet ***/
+@font-face {
+    font-family: MusicSync;
+    src: url(../fonts/MusiSync.ttf);
+    
+}
+
+main {
+    width: 450px;
+    height: auto;
+    margin: 20px auto 0;
+    background-color: darkgrey;
+    padding: 1% 20px;
+    text-align: center;
+}
+
+h1#top-title {
+    font-size: 2em;
+    text-align: center;
+    margin: 10px 0 13px;
+}
+
+#note-field {
+    height: 80px;
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #FFF;
+    margin: 0 auto;
+    font-family: MusicSync;
+    font-size: 50px;
+    padding-top: 11px;
+}
+
+#note-field > div {
+    display: inline-block;
+    padding-right: 4%;
+}
+
+table, tr, td {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+table#notes {
+    margin: 0 auto 20px;
+}
+
+.note-cell {
+    font-family: MusicSync;
+    font-size: 50px;
+    padding: 10px   15px;
+    background-color: #fff;
+    margin-right: 15px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.note-cell:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.active {
+    background-color: red;
+}
+
+#button-panel {
+    margin-bottom: 30px;
+}
